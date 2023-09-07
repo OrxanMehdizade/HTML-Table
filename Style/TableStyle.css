@@ -1,7 +1,8 @@
 table{
     border: 1px solid #000;
     border-collapse: collapse;
-    width: 1000px;
+    width: 1200px;
+    height: 800px;
 
 }
 
@@ -11,8 +12,18 @@ th{
 td{
     border: 1px solid #000;
 }
-.future td th{
-    text-align: right;
-    vertical-align: central;
 
+.meaning td{
+    text-align: center;
+
+}
+.present-Addition,.present-question,.present-Subtraction td{
+    text-align: center;
+}
+
+.future-Addition,.future-question,.future-Subtraction td{
+    text-align: center;
+}
+.Past-Addition,.Past-question,.Past-Subtraction td{
+    text-align: center;
 }
